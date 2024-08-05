@@ -82,3 +82,13 @@ To learn more about React Native, take a look at the following resources:
 
 yarn create @eslint/config@latest
 yarn npm audit
+
+# Yarn configuration
+
+## Installation
+corepack enable
+yarn init -2
+
+# Updating Yarn
+yarn set version stable
+yarn install
