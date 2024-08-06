@@ -92,3 +92,5 @@ yarn init -2
 # Updating Yarn
 yarn set version stable
 yarn install
+
+yarn add <package...> [--dev/-D]

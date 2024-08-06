@@ -4,7 +4,9 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default [
-  { files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
+  {
+    files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'],
+  },
   {
     settings: {
       react: {
